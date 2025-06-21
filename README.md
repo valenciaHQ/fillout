@@ -20,6 +20,7 @@ This project was built using the latest versions of **Next.js** and **Tailwind C
 - **Horizontal Component Navigation**: Designed to handle many components displayed side-by-side, enabling horizontal navigation across them.
 - **Informative Component List**: A list view placed below the horizontal scroll area provides users with additional context and information for each component.
 - **Modular Design**: Components are separated and organized logically to promote reuse and ease of extension.
+-- **Responsive Design**: Responsive design is also supported
 
 ## 🚀 Getting Started
 

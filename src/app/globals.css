@@ -133,9 +133,9 @@
 
   .connector {
     border: 1px dashed #c0c0c0;
-    width: 20px;
-    height: 1.5px;
+    height: 20px;
     border-width: 1px;
+    margin: 8px 0;
   }
 
   .connectorButton {

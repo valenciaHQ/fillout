@@ -8,7 +8,7 @@ type Props = {
 export default function FormDesignerStatusBar({ steps, selectedStep }: Props) {
   {
     return (
-      <div className="mt-6 bg-white p-4 rounded-lg shadow-sm">
+      <div className="flex-shrink-0 bg-white border-t border-gray-200 p-4">
         <h4 className="font-medium mb-3 text-gray-900">Current Steps:</h4>
         <div className="flex flex-wrap gap-2">
           {steps.map((step, index) => (

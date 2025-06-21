@@ -193,17 +193,19 @@ export default function FormDesigner() {
   };
 
   return (
-    <div className="w-full min-h-screen bg-gray-100 p-8">
-      <div className="bg-white p-8 rounded-lg shadow-sm">
-        {/* Stepper horizontal */}
-        <div className="flex items-center overflow-auto py-2">
+    <div className="h-[100dvh] bg-gray-100 flex flex-col">
+      <div className="flex-1 overflow-y-auto p-4">
+        <div className="px-4 flex flex-col md:gap-2 md:flex-row md:flex-wrap items-center overflow-auto py-2  border-[1px] border-[#E1E1E1] rounded-md">
           {steps.map((step, index) => {
             const isSelected = selectedStep === step.id;
             const isFocused = focusedStep === step.id;
             const isLastStep = index === steps.length - 1;
 
             return (
-              <div key={step.id} className="flex items-center">
+              <div
+                key={step.id}
+                className="flex flex-col md:flex-row items-center"
+              >
                 <div className="flex flex-col items-center relative">
                   <PageNode
                     index={index}
@@ -244,7 +246,7 @@ export default function FormDesigner() {
                     onMouseEnter={() => setHoveredConnection(index)}
                     onMouseLeave={() => setHoveredConnection(null)}
                   >
-                    <div className="connector" />
+                    <div className="connector md:h-[1.5px] md:w-[20px]" />
 
                     <AddPageConnector
                       index={index}
@@ -257,7 +259,7 @@ export default function FormDesigner() {
             );
           })}
 
-          <div className="connector mx-4" />
+          <div className="connector md:h-[1.5px] md:w-[20px]" />
 
           <Button
             onClick={handleAddPage}
