@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Project – Modular UI with Interactive Navigation
 
-## Getting Started
+This project was built using the latest versions of **Next.js** and **Tailwind CSS**, with a strong focus on **component modularization**, **class reuse**, and delivering all defined requirements within a set timeframe.
 
-First, run the development server:
+## 🧱 Tech Stack
+
+- **Next.js** (App Router) – Modern routing and hybrid rendering.
+- **Tailwind CSS v4** – Utility-first CSS framework for fast and consistent styling.
+- **React** – Component-based architecture for reusability and maintainability.
+
+## 🎯 Project Goals
+
+- Build a clean and scalable frontend using modern technologies.
+- Ensure modular component structure to support maintainability and scalability.
+- Reuse styles and classes efficiently using Tailwind’s utility-first approach.
+- Deliver the full feature set within a limited and predefined timeline.
+
+## 🧭 Key Features
+
+- **Horizontal Component Navigation**: Designed to handle many components displayed side-by-side, enabling horizontal navigation across them.
+- **Informative Component List**: A list view placed below the horizontal scroll area provides users with additional context and information for each component.
+- **Modular Design**: Components are separated and organized logically to promote reuse and ease of extension.
+
+## 🚀 Getting Started
+
+To run the project locally:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
